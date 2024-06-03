@@ -12,4 +12,4 @@
 
 // Package otelresty instruments the go-resty/resty package
 // (https://github.com/go-resty/resty).
-package otelresty // import "github.com/dubonzi/otelresty"
+package otelresty // import "github.com/zcong1993/otelresty"

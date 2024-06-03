@@ -10,7 +10,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otelresty // import "github.com/dubonzi/otelresty"
+package otelresty // import "github.com/zcong1993/otelresty"
 
 import (
 	"github.com/go-resty/resty/v2"
@@ -23,7 +23,7 @@ import (
 )
 
 const (
-	tracerName = "github.com/dubonzi/otelresty"
+	tracerName = "github.com/zcong1993/otelresty"
 )
 
 // TraceClient instruments the resty client by adding OnBeforeRequest, OnAfterResponse and OnError hooks.

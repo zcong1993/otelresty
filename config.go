@@ -10,7 +10,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otelresty // import "github.com/dubonzi/otelresty"
+package otelresty // import "github.com/zcong1993/otelresty"
 
 import (
 	"github.com/go-resty/resty/v2"
@@ -122,7 +122,7 @@ func WithSpanNameFormatter(f func(operation string, r *resty.Request) string) Op
 }
 
 // WithTracerName sets the name of the tracer used to create spans. The
-// default value is "github.com/dubonzi/otelresty".
+// default value is "github.com/zcong1993/otelresty".
 func WithTracerName(name string) Option {
 	return optionFunc(func(c *config) {
 		c.TracerName = name

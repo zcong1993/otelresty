@@ -1,5 +1,5 @@
 # Go-resty OpenTelemetry Instrumentation
-[![Docs](https://godoc.org/github.com/dubonzi/otelresty?status.svg)](https://pkg.go.dev/github.com/dubonzi/otelresty)
+[![Docs](https://godoc.org/github.com/zcong1993/otelresty?status.svg)](https://pkg.go.dev/github.com/zcong1993/otelresty)
 
 This repository aims to create a custom instrumentation for the [go-resty](https://github.com/go-resty/resty) project.
 
